@@ -4,6 +4,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `NPM`
+
+install node package manager after cloning it.
+
+### `Install React router`
+
+Run this commond
+
+    `npm install --save react-router-dom`
+
+You can check it there
+
+[https://www.npmjs.com/package/react-router-dom]
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
