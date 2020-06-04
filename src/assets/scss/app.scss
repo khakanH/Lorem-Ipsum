@@ -1,0 +1,62 @@
+@import "./breakpoints.scss";
+.main-heading {
+    font-family: "Dauphin", arial;
+    font-size: 70px;
+    line-height: 90px;
+    color: #000000;
+    position: relative;
+    @include media("<=desktop") {
+        left: 50%;
+    }
+    @include media("<=tablet") {
+        left: 30%;
+    }
+    @include media("<=phone") {
+        left: 25%;
+      }
+}
+.main-description {
+    font-family: Open Sans ;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 400;
+    position: relative;
+    left: 35%;
+    
+    @include media("<=tablet") {
+        left: 17%;
+    }
+    @include media("<=phone") {
+        left: 17%;
+      }
+}
+.italic {
+    font-style: italic;
+}
+.seprator{
+    position: relative;
+    @include media("<=desktop") {
+        left: 30%;
+    }
+    @include media("<=tablet") {
+        left: 12%;
+    }
+}
+.paragraph-title{
+    font-family: "Dauphin", arial;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 24px;
+}
+.paragraph-text{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+}
+.validation-msg{
+    color: red($color: #000000);
+}
